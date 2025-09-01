@@ -35,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     //Método para el botón enviar
-    public void Enviar(View view){
+    public void EnviarDatos(View view){
         Intent i = new Intent(this, ActivityRecibirDatos.class);
         i.putExtra("dato1", tn1.getText().toString());
         i.putExtra("dato2", ta1.getText().toString());
