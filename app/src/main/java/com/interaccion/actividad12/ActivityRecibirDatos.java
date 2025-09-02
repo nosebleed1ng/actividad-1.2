@@ -35,7 +35,7 @@ public class ActivityRecibirDatos extends AppCompatActivity {
         tn2.setText(dato1);
         ta2.setText(dato2);
         tc2.setText(dato3);
-//committtttttttttt
+//commit ahora si
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
