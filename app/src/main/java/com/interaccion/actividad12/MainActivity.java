@@ -5,6 +5,7 @@ import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
+import android.widget.Toast;
 
 import androidx.activity.EdgeToEdge;
 import androidx.appcompat.app.AppCompatActivity;
@@ -36,6 +37,7 @@ public class MainActivity extends AppCompatActivity {
 
     //Método para el botón enviar
     public void EnviarDatos(View view){
+        Toast.makeText(getApplicationContext(), "Datos enviados", Toast.LENGTH_SHORT).show();
         Intent i = new Intent(this, ActivityRecibirDatos.class);
         i.putExtra("dato1", tn1.getText().toString());
         i.putExtra("dato2", ta1.getText().toString());

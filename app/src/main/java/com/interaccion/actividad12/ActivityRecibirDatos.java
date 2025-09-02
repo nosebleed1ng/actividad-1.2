@@ -10,6 +10,7 @@ import androidx.core.view.ViewCompat;
 import androidx.core.view.WindowInsetsCompat;
 import android.view.View;
 import android.widget.TextView;
+import android.widget.Toast;
 
 import org.w3c.dom.Text;
 
@@ -34,7 +35,7 @@ public class ActivityRecibirDatos extends AppCompatActivity {
         tn2.setText(dato1);
         ta2.setText(dato2);
         tc2.setText(dato3);
-
+//commit
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
             v.setPadding(systemBars.left, systemBars.top, systemBars.right, systemBars.bottom);
@@ -43,6 +44,7 @@ public class ActivityRecibirDatos extends AppCompatActivity {
     }
 
     public void Volver(View view){
+        Toast.makeText(getApplicationContext(), "Regresando...", Toast.LENGTH_SHORT).show();
         Intent i = new Intent(this, MainActivity.class);
         startActivity(i);
     }

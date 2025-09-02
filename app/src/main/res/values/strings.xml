@@ -3,9 +3,11 @@
     <string name="txtNombre1">Nombre</string>
     <string name="txtApellido1">Apellido</string>
     <string name="txtCorreo1">Correo</string>
+    <string name="txtEdad1">Edad</string>
     <string name="txtNombre2">Nombre</string>
     <string name="txtApellido2">Apellido</string>
     <string name="txtCorreo2">Correo</string>
+    <string name="txtEdad2">Edad</string>
     <string name="lblNombre">Nombre</string>
     <string name="lblApellido">Apellido</string>
     <string name="lblCorreo">Correo</string>
